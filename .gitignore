@@ -4,4 +4,8 @@
 test/**
 *.db
 __pycache__
+/build
+/dist
+.eggs
+*.eggs*
 

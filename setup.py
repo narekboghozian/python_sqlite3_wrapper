@@ -6,8 +6,4 @@ setup(
     description='Wrapper for Sqlite3 in Python',
     author='Narek Boghozian',
     license='MIT',
-    install_requires=[],
-    setup_requires=['pytest-runner'],
-    tests_require=['pytest==4.4.1'],
-    test_suite='tests',
 )

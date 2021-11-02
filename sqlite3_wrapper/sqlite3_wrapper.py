@@ -12,7 +12,7 @@ class database:
 	def raw_command(self, command):
 		try:
 			self.__connect()
-			self.__conn.execute("command")
+			self.__conn.execute(command)
 			self.__close()
 		except Exception:
 			return False
@@ -20,7 +20,7 @@ class database:
 	def raw_command_commit(self, command):
 		try:
 			self.__connect()
-			self.__conn.execute("command")
+			self.__conn.execute(command)
 			self.__conn.commit()
 			self.__close()
 		except Exception:
